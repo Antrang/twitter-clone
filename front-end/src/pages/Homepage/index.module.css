@@ -1,0 +1,67 @@
+.homeMain {
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.homeLeftBg {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: url("../../assets/images/homeBg.png");
+    justify-content: space-around;
+}
+.homeLeftBg svg {
+    max-width: 330px;
+}
+.homeLeftBg svg path {
+    fill: #fff !important;
+}
+
+.homeRightBg h2 {
+    margin: 16px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    font-size: 3.5rem;
+}
+.homeRightBg h3 {
+    margin: 16px;
+    padding-top: 4px;
+    font-size: 2rem;
+}
+
+.homeRightBg svg {
+    max-width: 56px;
+    margin: 20px 0 0 20px;
+}
+.homeRightBg svg path {
+    fill: rgba(29, 161, 242, 1) !important;
+}
+.hideDiv {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .hideDiv {
+        display: block;
+    }
+    .showDiv {
+        display: none;
+    }
+
+    .homeRightBg h2 {
+        padding-top: 16px;
+        padding-bottom: 4px;
+        font-size: 2.5rem;
+    }
+    .homeRightBg h3 {
+        margin: 16px;
+        padding-top: 4px;
+        /* padding-bottom: 40px; */
+        font-size: 1.5rem;
+    }
+    .homeLeftBg {
+        height: 300px;
+    }
+    .homeLeftBg svg {
+        max-width: 175px;
+    }
+}
