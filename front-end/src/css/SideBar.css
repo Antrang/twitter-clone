@@ -1,0 +1,18 @@
+.sidebar{
+    flex: 0.2;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-HomeIcon{
+    margin-bottom: 1.5em;
+    margin-left: 0.5em;
+}
+.sidebar-TwitterIcon{
+    color:#219ebc;
+    margin-left:2.5em ;
+}
+.sidebarOption{
+    margin-left: 0.5em;
+}
+
