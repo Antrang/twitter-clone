@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../css/Form.css';
 import axios from 'axios';
-class SignIp extends Component {
+class SignIn extends Component {
     constructor(props) {
         super(props);
         this.state = {
