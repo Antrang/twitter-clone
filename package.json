@@ -7,7 +7,8 @@
     "client": "cd front-end && npm start",
     "server": "nodemon server",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "cd front-end && npm install && npm run build && cd ../ && node server"
+    "build": "cd front-end && npm install && npm run build && cd ../",
+    "start": "node server"
   },
   "author": "Rohit Mahto",
   "license": "ISC",
