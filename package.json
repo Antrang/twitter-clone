@@ -6,7 +6,8 @@
   "scripts": {
     "client": "cd front-end && npm start",
     "server": "nodemon server",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "cd front-end && npm install && npm run build && cd ../ && node server"
   },
   "author": "Rohit Mahto",
   "license": "ISC",
